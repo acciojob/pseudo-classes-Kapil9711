@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+:root{
+	background: rgb(135, 206, 235);
+}
+body p:first-of-type{
+	color:white;
+	background:black;
+}
+body p:last-of-type{
+	color:red;
+}
+
+ul li{
+	background:grey;
+	width:50%;
+	padding:10px;
+}
+ul li:first-child, li:last-child{
+	font-size:22px;
+	
+}
+ul li{
+	background:white;
+}
+ul li:nth-of-type(2n){
+	background:grey;
+}
+ul li:nth-of-type(3n){
+	background-color:pink;
+}
